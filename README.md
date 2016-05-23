@@ -13,3 +13,5 @@ Setup
 - Fill relevant details in `conf.js` file.
 - Start node server and complete the Webhook setup process.
 - You are ready to go, bot should respond back with exact string sent.
+
+Forked from [sgaurav/fb-messenger-echo-bot](https://github.com/sgaurav/fb-messenger-echo-bot)
