@@ -1,6 +1,6 @@
 {
   "name": "Facebook Messenger Echo Bot",
-  "description": "Facebook Launched Messenger API in F8 Conference. This opens up gate for many who want to build bots for Facebook Messenger.This is a simple echo bot built using the APIs ",
+  "description": "This is a simple echo bot built using the APIs to interact with FB messenger.",
   "repository": "https://github.com/dvidsilva/messenger-bot.git",
   "keywords": ["node", "express", "facebook", "messenger", "bot"]
 }
