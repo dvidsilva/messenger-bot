@@ -5,10 +5,11 @@
     "keywords": ["node", "express", "facebook", "messenger", "bot"],
     "env": {
         "VERIFY_TOKEN": {
-            "description": "A secret key for verifying the integrity of signed cookies."
+            "description": "A random, safe, string provided by you, to verify the identity of the requests.",
+            "generator": "secret"
         },
         "PROFILE_TOKEN": {
-            "description": "A secret key for verifying the integrity of signed cookies."
+            "description": "Generate this token in the application settings in Messenger for your page."
         }
     }
 }
