@@ -3,6 +3,8 @@ Facebook Launched Messenger API in F8 Conference. This opens up gate for many wh
 
 This is a simple echo bot built using the APIs.
 
+
+
 Setup
 ---------------------------
 - Setup a Nodejs client running on HTTPS. Refer to awesome Digital Ocean resource for same [here]('https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04')
@@ -15,3 +17,10 @@ Setup
 - You are ready to go, bot should respond back with exact string sent.
 
 Forked from [sgaurav/fb-messenger-echo-bot](https://github.com/sgaurav/fb-messenger-echo-bot)
+
+## Quicker setup
+
+Fork this repo, make changes, and deploy to heroku for a cheaper, quicker setup.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
