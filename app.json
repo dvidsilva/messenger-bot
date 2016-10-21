@@ -1,7 +1,15 @@
 {
-  "name": "Facebook Messenger Echo Bot",
-  "description": "This is a simple echo bot built using the APIs to interact with FB messenger.",
-  "repository": "https://github.com/dvidsilva/messenger-bot.git",
-  "keywords": ["node", "express", "facebook", "messenger", "bot"]
+    "name": "Facebook Messenger Echo Bot",
+    "description": "This is a simple echo bot built using the APIs to interact with FB messenger.",
+    "repository": "https://github.com/dvidsilva/messenger-bot.git",
+    "keywords": ["node", "express", "facebook", "messenger", "bot"],
+    "env": {
+        "VERIFY_TOKEN": {
+            "description": "A secret key for verifying the integrity of signed cookies."
+        },
+        "PROFILE_TOKEN": {
+            "description": "A secret key for verifying the integrity of signed cookies."
+        }
+    }
 }
 
